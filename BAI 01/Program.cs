@@ -15,6 +15,8 @@ namespace BAI_01
             foreach(IPAddress ip in host.AddressList)
             {
                 Console.WriteLine(ip.ToString());
+                Console.WriteLine();
+
             }
             
             
